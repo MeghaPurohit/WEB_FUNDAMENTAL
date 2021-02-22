@@ -1,0 +1,81 @@
+body {
+    padding-top: 100px;
+  }
+  
+  .carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+ 
+  a {
+     color: darkgoldenrod; 
+  }
+
+  a:hover {
+    color: #E1A93C; 
+ }
+
+ #logo {
+     position: absolute;
+     top: 10px;
+ }
+
+ #navbar {
+    background-color: lightyellow;
+    height: 100px;
+ }
+ .navbar-brand {
+    font-size: 30px;
+    margin-left: 100px;
+ }
+ #navbarResponsive {
+    background-color: lightyellow;
+ }
+.navbar-toggler {
+    color: darkgoldenrod !important; 
+    border-color: darkgoldenrod ;
+}
+ .navbar-toggler-icon {
+    background-image: url("../images/menu.png")
+ }
+
+ #navbarResponsive.collapse.show {
+    margin-top:40px;
+    padding-left: 20px;
+ }
+.nav-link.active {
+   font-weight: bolder;
+}
+
+.theme-color {
+    color: darkgoldenrod;
+}
+.theme-light-color {
+    color: lightyellow;
+}
+
+.theme-light-bg {
+    background-color: #E1A93C;
+}
+.nav-pills {
+    margin-left: 35%;
+}
+.google-map iframe {
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
+@media only screen and (max-width: 600px) {
+    .nav-pills {
+        margin-left: 0%;
+    }
+  }
